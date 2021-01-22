@@ -54,3 +54,10 @@
 .text-center{
     text-align: center;
 }
+
+.border-tag{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
