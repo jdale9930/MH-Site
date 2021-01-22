@@ -6,3 +6,51 @@
 .column{
     flex-direction: column;
 }
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-azure{
+    background-color: azure;
+}
+
+.shadow-grey{
+    box-shadow: gray 5px 5px 10px;
+}
+
+.hover-azure:hover{
+    background-color: rgb(200, 219, 219)
+}
+.border{
+    border: 2px solid black;
+}
+
+.fb-quarter{
+    flex-basis: calc(25% - 4px);
+}
+
+.fb-half{
+    flex-basis: calc(50% - 4px);
+}
+
+.fb-threequarters{
+    flex-basis: calc(75% - 4px);
+}
+
+
+.fb-third{
+    flex-basis: calc((100% / 3) - 4px);
+}
+
+.fb-twothird{
+    flex-basis: calc((100% / 3) * 2 - 4px);
+}
+
+.jc-center{
+    justify-content: center;
+}
+
+.text-center{
+    text-align: center;
+}
