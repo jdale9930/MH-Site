@@ -1,6 +1,12 @@
+
+
 .container{
     display: flex;
     flex-flow: row wrap;
+}
+
+.frijole{
+    font-family: frijole;
 }
 
 .column{
