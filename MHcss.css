@@ -21,12 +21,30 @@
     background-color: azure;
 }
 
+.bg-gold{
+    background: rgb(223,201,4);
+    background: linear-gradient(90deg, rgba(223,201,4,1) 1%, rgba(222,217,177,1) 21%, rgba(255,246,163,1) 59%, rgba(224,204,23,1) 100%);
+}
+
+.bg-parchment{
+    background-image: url("parchment.jpg");
+    background-color: white;
+
+}
+
+.bg-main{
+    background-image: url("background.webp");
+    background-color: white;
+    background-size: cover;
+
+}
+
 .shadow-grey{
     box-shadow: gray 5px 5px 10px;
 }
 
 .hover-azure:hover{
-    background-color: rgb(200, 219, 219)
+    background-color: rgb(240, 255, 255)
 }
 .border{
     border: 2px solid black;
