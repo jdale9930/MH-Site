@@ -38,6 +38,9 @@
     flex-basis: calc(75% - 4px);
 }
 
+.tag-hover:hover{
+    transform: scale(1.2, 1.2);
+}
 
 .fb-third{
     flex-basis: calc((100% / 3) - 4px);
