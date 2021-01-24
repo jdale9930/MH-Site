@@ -117,12 +117,18 @@
     .mheight-962{
         height: 1200px !important;
     }
+
+
 }
 
 @media(max-width: 742px){
     .column742{
         flex-direction: column;
         flex-wrap: wrap;
+    }
+
+    .font-942{
+        font-size: 20px !important;
     }
 
     .row742{
@@ -133,8 +139,8 @@
         flex-basis: 80% !important;
     }
 
-    .heihgt-742{
-        height: 210px;
+    .height-742{
+        height: 150px !important;
     }
 
     .jc742{
@@ -143,5 +149,9 @@
 
     .mb742{
         margin-bottom: 10px;
+    }
+
+    .mb2-742{
+        margin-bottom: 20px;
     }
 }
